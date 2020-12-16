@@ -12,12 +12,20 @@ For details of the config you can forward to [https://github.com/gpakosz/.tmux](
 
 ### wget
 ```
-wget -o ~/.tmux.conf https://raw.githubusercontent.com/lovelock/tmux.conf/main/tmux.conf
+wget -O ~/.tmux.conf https://raw.githubusercontent.com/lovelock/tmux.conf/main/tmux.conf
 ```
 
 ### curl
 ```
-curl -O ~/.tmux.conf https://raw.githubusercontent.com/lovelock/tmux.conf/main/tmux.conf
+curl -0 ~/.tmux.conf https://raw.githubusercontent.com/lovelock/tmux.conf/main/tmux.conf
 ```
 
 > I don't know who would like to use git to install it with the two methods above available, so no need to provide it.
+
+### 
+
+append these lines to your `~/.bashrc` or `~/.zshrc`
+```
+export VISUAL=vim
+export EDITOR=vim
+```
